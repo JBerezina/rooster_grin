@@ -47,16 +47,31 @@
     padding: 0;
   }
 
+  .RoosterGrinH{
 
-  .Heading h2 {
     color: white;
     font-size: 4vw;
     letter-spacing: 0.1em;
     margin: 0;
+
+
+    /*Animation */
+    animation-name: RoosterGrinAnimation;
+    animation-duration: 10s;
   }
 
 
-}
+  @keyframes RoosterGrinAnimation {
+    0%   {opacity: 0;}
+
+    100% {opacity: 1;}
+  }
+
+
+  }
+
+
+
 
 
 

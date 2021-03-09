@@ -13,7 +13,7 @@ const header = () => {
             <ToolBar />
             <div className={style.Heading}>
                 <h1>Welcome to</h1>
-                <h2>Rooster Grin</h2>
+                <h2 className={style.RoosterGrinH}>Rooster Grin</h2>
                 <Button />
             </div>
 

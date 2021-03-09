@@ -28,11 +28,11 @@ const expertiseSection  = () => {
 
                     <div className={styles.FirstLineExpertiseLogos}>
 
-                        <ExpLogoHolder logoImage="url(/images/home-expertise.svg)">
+                        <ExpLogoHolder logoImage="url(./images/home-expertise.svg)">
                             <p>Imd dhgf</p>
                         </ExpLogoHolder>
 
-                        <ExpLogoHolder logoImage="url(/images/home-hygiene.svg)">
+                        <ExpLogoHolder logoImage="url(./images/home-hygiene.svg)">
                             <p>Kg slkhk</p>
                         </ExpLogoHolder>
 
@@ -40,11 +40,11 @@ const expertiseSection  = () => {
 
                     <div className={styles.SecondLineExpertiseLogos}>
 
-                        <ExpLogoHolder logoImage="url(/images/home-lab.svg)">
+                        <ExpLogoHolder logoImage="url(./images/home-lab.svg)">
                             <p>Imd dhgf</p>
                         </ExpLogoHolder>
 
-                        <ExpLogoHolder logoImage="url(/images/home-retention.svg)">
+                        <ExpLogoHolder logoImage="url(./images/home-retention.svg)">
                             <p>Kg slkhk</p>
                         </ExpLogoHolder>
                     </div>
