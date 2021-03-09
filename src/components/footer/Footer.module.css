@@ -1,0 +1,20 @@
+.Footer{
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FollowUs{
+    margin: 1vw 0;
+    font-weight: 600;
+}
+.SocialWrapper{
+    display: flex;
+
+}
+.SocialWrapper > img{
+    width: 5vw;
+    height: 5vw;
+    margin: 1vw;
+}

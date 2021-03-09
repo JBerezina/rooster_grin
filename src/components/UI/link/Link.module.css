@@ -1,0 +1,23 @@
+.Link {
+  margin:0;
+  padding: 0;
+  text-decoration:none;
+
+  font-weight: 500;
+  color: #613575;
+  line-height: 2px;
+}
+
+@media screen and (max-width: 599px){
+  .Link{
+    font-size: 3vw;
+  }
+
+}
+
+@media only screen and (min-width: 600px){
+  .Link{
+    font-size: 1.5vw;
+  }
+
+}

@@ -1,0 +1,63 @@
+
+@media screen and (max-width: 599px){
+
+  .Banner {
+    width: 100%;
+    height: 10vw;
+
+  }
+  .HeroImg{
+    display: none;
+  }
+  .Heading{
+    display: none;
+  }
+
+
+}
+
+@media only screen and (min-width: 600px){
+
+  .Banner {
+    width: 100%;
+    position: relative;
+    margin-bottom: -5px;
+  }
+
+  .Banner img {
+    width: 100%;
+  }
+
+  .Heading {
+    position: absolute;
+    top: 26vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+  }
+
+
+  .Heading h1 {
+    -webkit-text-stroke: 1px white;
+    color: saddlebrown;
+    text-transform: uppercase;
+    font-size: 5vw;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .Heading h2 {
+    color: white;
+    font-size: 4vw;
+    letter-spacing: 0.1em;
+    margin: 0;
+  }
+
+
+}
+
+
+
+

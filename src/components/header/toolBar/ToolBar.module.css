@@ -1,0 +1,7 @@
+.ToolBar {
+  position: absolute;
+  top: 0;
+  display: flex;
+  padding-left: 10%;
+  padding-top: 1%;
+}

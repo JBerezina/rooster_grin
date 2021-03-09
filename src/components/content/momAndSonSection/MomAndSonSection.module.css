@@ -1,0 +1,37 @@
+.MomSection {
+  width: 100%;
+  position: relative;
+}
+
+.MomSection img {
+  width: 100%;
+}
+
+.MomAndSonTitle{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  text-align: left;
+  align-items: center;
+}
+
+.MomH{
+
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #613575;
+  margin-bottom: 1.2vh;
+}
+
+@media screen and (max-width: 599px) {
+  .MomH{
+    font-size: 5vw;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .MomH{
+    font-size: 3vw;
+  }
+
+}

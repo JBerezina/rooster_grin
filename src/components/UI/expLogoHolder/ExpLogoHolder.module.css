@@ -1,0 +1,55 @@
+.LogoExpHolder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 4vw;
+
+}
+
+.ExpLogoImage{
+    height: 5vw;
+    width: 5vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.Circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20%;
+    border: 2px solid purple;
+    border-radius: 50%;
+    /*Animation */
+    animation-name: IconCircle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+
+@keyframes IconCircle {
+    0%   {border: 2px solid yellow;}
+    20%  {border: 2px solid violet;}
+    40%  {border: 2px solid yellow; }
+    60%  {border: 2px solid purple;}
+    90%  {border: 2px solid yellow;}
+    100% {border: 2px solid purple;}
+}
+
+.IconCircle:focus{
+    border: 2px solid purple;
+}
+
+
+.Caption{
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+

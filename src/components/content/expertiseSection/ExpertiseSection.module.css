@@ -1,0 +1,128 @@
+.ExpertiseSection {
+  display: flex;
+}
+
+.TextExpertiseSection {
+  display: flex;
+  justify-content: center;
+}
+
+.TextExpertiseSection h4 {
+  margin-top:0;
+}
+
+.ExpertiseText{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.ItemsExpertiseSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.ExpertiseLogoWrapper{
+  display: flex;
+}
+
+.FirstLineExpertiseLogos{
+  display: flex;
+
+}
+
+.SecondLineExpertiseLogos{
+  display: flex;
+
+}
+
+.ExpHeading{
+  font-size: 3vw;
+  text-transform: uppercase;
+  color: black;
+}
+
+@media screen and (max-width: 599px) {
+  .ExpertiseSection {
+    flex-direction: column-reverse;
+  }
+
+  .ExpertiseText {
+    margin-top: 5vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-bottom: 5vw;
+  }
+
+  .ExpP{
+    margin-bottom:1vw;
+  }
+
+  .ItemsExpertiseSection{
+    width: 100vw;
+
+  }
+
+  .ExpertiseLogoWrapper{
+    width: 100vw;
+  }
+
+
+  .FirstLineExpertiseLogos{
+    padding-top: 3vw;
+    width: 50vw;
+    justify-content: space-around;
+
+  }
+
+  .SecondLineExpertiseLogos{
+    padding-top: 2vw;
+    width: 50vw;
+    justify-content: space-around;
+
+  }
+
+  .ExpHeading {
+    text-align: center;
+    font-size: 5vw;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+
+  .TextExpertiseSection {
+    width: 50vw;
+    padding-left: 5vw;
+  }
+  .ExpertiseText {
+    width: 25vw;
+  }
+  .TextExpertizeSection {
+    display: flex;
+  }
+
+  .ItemsExpertiseSection {
+    width: 50vw;
+    padding-left: 3vw;
+
+  }
+  .ExpertiseLogoWrapper{
+    flex-direction: column;
+    padding: 5vw;
+    width: 35vw;
+  }
+
+
+  .FirstLineExpertiseLogos{
+    justify-content: space-between;
+  }
+
+  .SecondLineExpertiseLogos{
+    justify-content: space-between;
+  }
+
+}

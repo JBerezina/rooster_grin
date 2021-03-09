@@ -1,0 +1,22 @@
+@media screen and (max-width: 599px){
+
+  .LogoWhite {
+    display: none;
+  }
+  .LogoColor{
+    width: 40vw;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .Logo{
+    width: 20vw;
+  }
+  .LogoWhite {
+    width: 5vw;
+  }
+  .LogoColor{
+    display: none;
+  }
+
+}

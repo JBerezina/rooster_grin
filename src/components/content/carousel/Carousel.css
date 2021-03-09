@@ -1,0 +1,22 @@
+Carousel{
+    padding: 5vw;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-indicators{
+    filter: invert(100%);
+
+}
+
+.CarouselP{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-bottom: 5vh;
+}

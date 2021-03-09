@@ -1,0 +1,41 @@
+.GirlSection {
+  width: 100%;
+  position: relative;
+}
+
+.GirlSection img {
+  width: 100%;
+}
+
+.GirlTitle{
+  position: absolute;
+  top: 30%;
+  right: 8%;
+  width: 40vw;
+  text-align: left;
+  align-items: center;
+}
+
+
+.GirlH{
+
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #613575;
+  margin-bottom: 1.2vh;
+}
+@media screen and (max-width: 599px) {
+  .GirlP{
+    display: none;
+  }
+  .GirlH{
+    font-size: 5vw;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .GirlH{
+    font-size: 3vw;
+  }
+
+}

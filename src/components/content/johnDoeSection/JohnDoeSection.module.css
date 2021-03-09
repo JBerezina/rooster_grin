@@ -1,0 +1,85 @@
+.JohnDoeSection {
+  display: flex;
+  justify-content: center;
+}
+
+.StarSection {
+  display: flex;
+  justify-content: center;
+}
+
+.TitleAndStars{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30vw;
+}
+
+.StarSection img {
+  width: 12vw;
+}
+
+.CarouselSection {
+  display: flex;
+  justify-content: center;
+
+}
+
+.JohnH{
+  text-transform: uppercase;
+  color: black;
+}
+
+@media screen and (max-width: 599px){
+
+  .JohnDoeSection{
+    flex-direction: column;
+    margin-top: 5vw;
+  }
+  .TitleAndStars {
+    width: 50vw;
+  }
+  .CarouselWrapper{
+    padding-top: 2vh;
+    width: 80vw;
+  }
+
+  .JohnH{
+    font-size: 5vw;
+  }
+
+}
+
+@media only screen and (min-width: 600px){
+  .JohnDoeSection {
+    padding-top: 2vh;
+    padding-bottom: 7vh;
+  }
+
+  .StarSection {
+    width: 50vw;
+  }
+
+  .TitleAndStars{
+    padding-top: 5vh;
+    width: 30vw;
+  }
+
+  .StarSection img {
+    width: 12vw;
+  }
+
+  .CarouselSection {
+    width: 50vw;
+    padding-top: 5vh;
+  }
+
+  .CarouselWrapper{
+    width: 40vw;
+  }
+
+  .JohnH{
+    font-size: 3vw;
+  }
+
+}
